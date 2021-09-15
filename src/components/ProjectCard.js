@@ -117,7 +117,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             className={classes.iconBox}
           >
             <ReactIcon />
@@ -129,7 +129,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             marginTop="30px"
             className={classes.iconBox}
           >
@@ -169,7 +169,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             className={classes.iconBox}
           >
             <ReactIcon />
@@ -180,7 +180,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             marginTop="30px"
             className={classes.iconBox}
           >
@@ -211,7 +211,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             className={classes.iconBox}
           >
             <ReactIcon />
@@ -220,7 +220,7 @@ const SkillIcon = () => {
           <Box
             display="flex"
             flexDirection="row"
-            gridGap="20px"
+            gridgap="20px"
             marginTop="30px"
             className={classes.iconBox}
           >

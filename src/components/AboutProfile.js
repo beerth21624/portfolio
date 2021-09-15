@@ -40,6 +40,9 @@ const useStyles = makeStyles((theme) => ({
     color: 'black',
     fontFamily: 'Shadows Into Light, cursive',
     marginBottom: '30px',
+    [theme.breakpoints.only('sm')]: {
+      textAlign: 'center',
+    },
     [theme.breakpoints.down('xs')]: {
       fontSize: '30px',
       textAlign: 'center',

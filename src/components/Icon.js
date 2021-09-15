@@ -42,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
 export const ReactIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-256.png"
         alt=""
@@ -54,7 +54,7 @@ export const ReactIcon = () => {
 export const NodeIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/nodejs.svg"
         alt=""
@@ -67,7 +67,7 @@ export const NodeIcon = () => {
 export const MaterialIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/materialui.svg"
         alt=""
@@ -79,7 +79,7 @@ export const MaterialIcon = () => {
 export const ReduxIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/redux.svg"
         alt=""
@@ -91,7 +91,7 @@ export const ReduxIcon = () => {
 export const JsIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/javascript.svg"
         alt=""
@@ -103,7 +103,7 @@ export const JsIcon = () => {
 export const ExpressIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/expressjs.png"
         alt=""
@@ -115,7 +115,7 @@ export const ExpressIcon = () => {
 export const GitIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/git.svg"
         alt=""
@@ -127,7 +127,7 @@ export const GitIcon = () => {
 export const GithubIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github_2-256.png"
         alt=""
@@ -139,7 +139,7 @@ export const GithubIcon = () => {
 export const MongoIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://bhavya.dev/assets/icons/mongodb.svg"
         alt=""
@@ -151,7 +151,7 @@ export const MongoIcon = () => {
 export const MysqlIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn1.iconfinder.com/data/icons/programing-development-7/24/mysql_database_logo_data_base-512.png"
         alt=""
@@ -163,7 +163,7 @@ export const MysqlIcon = () => {
 export const HtmlIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-html-5-256.png"
         alt=""
@@ -175,7 +175,7 @@ export const HtmlIcon = () => {
 export const CssIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/121-css3-512.png"
         alt=""
@@ -187,7 +187,7 @@ export const CssIcon = () => {
 export const FirebaseIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn4.iconfinder.com/data/icons/google-i-o-2016/512/google_firebase-2-512.png"
         alt=""
@@ -200,7 +200,7 @@ export const FirebaseIcon = () => {
 export const FigmaIcon = () => {
   const classes = useStyles();
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignitems="center">
       <img
         src="https://cdn4.iconfinder.com/data/icons/logos-brands-in-colors/3000/figma-logo-256.png"
         alt=""

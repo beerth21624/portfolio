@@ -5,37 +5,33 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Typewriter from 'typewriter-effect';
-import MenuIcon from '@material-ui/icons/Menu';
+import Navbar from './Navbar';
 
 const useStyles = makeStyles((theme) => ({
-  navbar: {
+  menuBox: {
+    width: '100vw',
+    display: 'flex',
     backgroundColor: 'black',
-    position: 'sticky',
-    top: 0,
-    zIndex: 1,
+    flexDirection: 'column',
   },
-  logo: {
-    fontSize: '23px',
-    fontWeight: '600',
+  list: {
+    width: '100vw',
+    height: '50px',
+    backgroundColor: 'black',
     color: 'white',
-    [theme.breakpoints.down('sm')]: {
-      fontSize: '19px',
+    display: 'flex',
+    animation: '$menuDrop 1 0.5s ease-in-out',
+  },
+  '@keyframes menuDrop': {
+    from: {
+      height: '0px',
+    },
+    to: {
+      height: '50px',
     },
   },
-  menu: {
-    fontSize: '15px',
-    fontWeight: '400',
-    color: 'white',
-    [theme.breakpoints.down('sm')]: {
-      display: 'none',
-    },
-  },
-  menuIcon: {
-    color: 'white',
-    marginRight: '-50PX',
-    [theme.breakpoints.up('md')]: {
-      display: 'none',
-    },
+  text: {
+    margin: 'auto',
   },
   header: {
     background:
@@ -94,49 +90,35 @@ const useStyles = makeStyles((theme) => ({
 }));
 const Header = () => {
   const classes = useStyles();
-  const [scrolled, setScrolled] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  window.onscroll = () => {
-    setScrolled(window.pageYOffset === 0 ? false : true);
-    return () => (window.onscroll = null);
-  };
   return (
     <div>
+      <Navbar open={open} setOpen={setOpen} />
       <Box
-        display="flex"
-        flexDirection="row"
-        justifyContent="space-between"
-        alignItems="center"
-        padding="0 50px 0px 35px"
-        height="70px"
-        className={scrolled ? classes.navbar : ''}
+        className={classes.menuBox}
+        style={{ display: open ? 'flex' : 'none' }}
       >
-        <Typography className={classes.logo}>
-          &lt; Sarawut &frasl; &gt;
-        </Typography>
-        <Button className={classes.menuIcon}>
-          <MenuIcon style={{ fontSize: '35px' }} />
-        </Button>
-        <Box
-          display="flex"
-          flexDirection="row"
-          gridGap="30px"
-          className={classes.menu}
-        >
-          <Button className={classes.menu}>Home</Button>
-          <Button href="#aboutPage" className={classes.menu}>
-            About
-          </Button>
-          <Button href="#skillPage" className={classes.menu}>
-            Skill
-          </Button>
-          <Button href="#projectPage" className={classes.menu}>
-            Project
-          </Button>
-          <Button href="#contactPage" className={classes.menu}>
-            Contact
-          </Button>
-        </Box>
+        <a href="#aboutPage">
+          <Box className={classes.list}>
+            <Typography className={classes.text}>About</Typography>
+          </Box>
+        </a>
+        <a href="#skillPage">
+          <Box className={classes.list}>
+            <Typography className={classes.text}>Skill</Typography>
+          </Box>
+        </a>
+        <a href="#projectPage">
+          <Box className={classes.list}>
+            <Typography className={classes.text}>Project</Typography>
+          </Box>
+        </a>
+        <a href="#contactPage">
+          <Box className={classes.list}>
+            <Typography className={classes.text}>Contact</Typography>
+          </Box>
+        </a>
       </Box>
       <Box
         width="100vw"

@@ -109,7 +109,7 @@ const Contact = () => {
       <Typography variant="h5" className={classes.title}>
         Contact Me
       </Typography>
-      <Grid container md={12}>
+      <Grid container>
         <Grid item md={6} sm={12} xs={12}>
           <form className={classes.rootForm} onSubmit={sendEmail}>
             <label className={classes.label} htmlFor="name">
@@ -162,12 +162,12 @@ const Contact = () => {
               display="flex"
               flexDirection="row"
               alignItems="center"
-              gridGap="12px"
+              gridgap="12px"
             >
               <GitHubIcon
                 className={classes.icon}
-                alignItems="center"
-                gridGap="12px"
+                alignitems="center"
+                gridgap="12px"
               />
               <Typography>Github</Typography>
             </Box>
@@ -175,7 +175,7 @@ const Contact = () => {
               display="flex"
               flexDirection="row"
               alignItems="center"
-              gridGap="12px"
+              gridgap="12px"
             >
               <LinkedInIcon className={classes.icon} />
               <Typography>LinkedIn</Typography>
@@ -184,7 +184,7 @@ const Contact = () => {
               display="flex"
               flexDirection="row"
               alignItems="center"
-              gridGap="12px"
+              gridgap="12px"
             >
               <FacebookIcon className={classes.icon} />
               <Typography>Facebook</Typography>
@@ -193,7 +193,7 @@ const Contact = () => {
               display="flex"
               flexDirection="row"
               alignItems="center"
-              gridGap="12px"
+              gridgap="12px"
             >
               <PhoneAndroidIcon className={classes.icon} />
               <Typography>+668-492-66487</Typography>
