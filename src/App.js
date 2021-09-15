@@ -1,6 +1,6 @@
-import { Box, Button, Container, Hidden, Typography } from '@material-ui/core';
+import { Container } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './components/Header';
 import SkillIcon from './components/SkillIcon';
 import AboutProfile from './components/AboutProfile';

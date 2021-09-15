@@ -6,7 +6,6 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Typewriter from 'typewriter-effect';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Drawer, Divider, IconButton } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   navbar: {
