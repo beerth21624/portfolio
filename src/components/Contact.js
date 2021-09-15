@@ -158,37 +158,47 @@ const Contact = () => {
               or get in touch using my contact number.
             </Typography>
             <Typography paragraph>See you!</Typography>
-            <Box
-              display="flex"
-              flexDirection="row"
-              alignItems="center"
-              gridgap="12px"
-            >
-              <GitHubIcon
-                className={classes.icon}
-                alignitems="center"
+            <a href="https://github.com/beerth21624" className="link">
+              <Box
+                display="flex"
+                flexDirection="row"
+                alignItems="center"
                 gridgap="12px"
-              />
-              <Typography>Github</Typography>
-            </Box>
-            <Box
-              display="flex"
-              flexDirection="row"
-              alignItems="center"
-              gridgap="12px"
+              >
+                <GitHubIcon
+                  className={classes.icon}
+                  alignitems="center"
+                  gridgap="12px"
+                />
+
+                <Typography>Github</Typography>
+              </Box>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sarawut-inpol-95880b218/"
+              className="link"
             >
-              <LinkedInIcon className={classes.icon} />
-              <Typography>LinkedIn</Typography>
-            </Box>
-            <Box
-              display="flex"
-              flexDirection="row"
-              alignItems="center"
-              gridgap="12px"
-            >
-              <FacebookIcon className={classes.icon} />
-              <Typography>Facebook</Typography>
-            </Box>
+              <Box
+                display="flex"
+                flexDirection="row"
+                alignItems="center"
+                gridgap="12px"
+              >
+                <LinkedInIcon className={classes.icon} />
+                <Typography>LinkedIn</Typography>
+              </Box>
+            </a>
+            <a href="https://www.facebook.com/sarawut.inpol/" className="link">
+              <Box
+                display="flex"
+                flexDirection="row"
+                alignItems="center"
+                gridgap="12px"
+              >
+                <FacebookIcon className={classes.icon} />
+                <Typography>Facebook</Typography>
+              </Box>
+            </a>
             <Box
               display="flex"
               flexDirection="row"

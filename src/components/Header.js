@@ -99,22 +99,22 @@ const Header = () => {
         className={classes.menuBox}
         style={{ display: open ? 'flex' : 'none' }}
       >
-        <a href="#aboutPage">
+        <a href="#aboutPage" className="link">
           <Box className={classes.list}>
             <Typography className={classes.text}>About</Typography>
           </Box>
         </a>
-        <a href="#skillPage">
+        <a href="#skillPage" className="link">
           <Box className={classes.list}>
             <Typography className={classes.text}>Skill</Typography>
           </Box>
         </a>
-        <a href="#projectPage">
+        <a href="#projectPage" className="link">
           <Box className={classes.list}>
             <Typography className={classes.text}>Project</Typography>
           </Box>
         </a>
-        <a href="#contactPage">
+        <a href="#contactPage" className="link">
           <Box className={classes.list}>
             <Typography className={classes.text}>Contact</Typography>
           </Box>
@@ -152,9 +152,18 @@ const Header = () => {
             flexDirection="row"
             className={classes.profileIcon}
           >
-            <FacebookIcon />
-            <LinkedInIcon />
-            <GitHubIcon />
+            <a href="https://www.facebook.com/sarawut.inpol/" className="link">
+              <FacebookIcon />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sarawut-inpol-95880b218/"
+              className="link"
+            >
+              <LinkedInIcon />
+            </a>
+            <a href="https://github.com/beerth21624" className="link">
+              <GitHubIcon />
+            </a>
           </Box>
           <Button href="#contactPage" className={classes.profileBtn}>
             Get in touch
